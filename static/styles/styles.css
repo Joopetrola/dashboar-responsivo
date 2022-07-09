@@ -1,0 +1,22 @@
+:root {
+    --cor-menu: #fdfdfd;
+    --bg-menu: #3f4a59;
+    --font-principal: 'Roboto';
+    --icon-bg: #29303a;
+    --body--color: #f5f6fa;
+    --branco: #fff;
+}
+
+body {
+    font-family: var(--font-principal);
+    background: var(--body--color);
+}
+
+.flex {
+    display: flex;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+}

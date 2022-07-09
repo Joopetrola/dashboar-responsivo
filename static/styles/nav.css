@@ -1,0 +1,82 @@
+.menu--principal {
+    background: var(--bg-menu);
+    font-weight: 300;
+    height: 100vh;
+    width: 50%;
+    color: var(--cor-menu);
+    padding: 2rem;
+    border-right: 3px solid rgba(41, 48, 58, 0.1);
+    position: absolute;
+    transform: translateY(4.7rem);
+}
+
+.logo {
+    margin-bottom: 30%;
+}
+
+.menu--lista {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lista--item {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+    list-style: none;
+}
+
+
+.ancoras--menu {
+    color: var(--cor-menu);
+}
+
+.ancoras--menu i {
+    margin-right: 1rem;
+    border: 1px solid var(--icon-bg);
+    padding: 0.4rem;
+    border-radius: 10%;
+    background: var(--icon-bg);
+}
+
+.menu--principal {
+    display: none;
+}
+
+.menu--visivel {
+    background: var(--branco);
+    width: calc(100% - 2rem);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.menu--visivel ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.user--menu {
+    width: 70px;
+}
+.menu--visivel ul div {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    padding: .5rem;
+    border-radius: 50%;
+    background: url('../images/now-united.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu--visivel ul li {
+    margin: 0 1rem;
+}
+
+.botao {
+    font-size: 1.5rem;
+}
