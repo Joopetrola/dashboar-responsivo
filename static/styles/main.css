@@ -1,0 +1,55 @@
+.main--info--1 {
+    padding: 1.5rem;
+    font-weight: 300;
+}
+
+.div-main-info-1 {
+    background: var(--bg-divs-1);
+    margin: 2rem 0;
+}
+
+.line-1-div-main--1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    margin: 1rem 0;
+
+}
+
+.line-1-div-main--1 i {
+    font-size: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding: 1rem;
+    border-radius: 0.3rem;
+
+}
+
+.info--div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.info--div h1{
+    margin: 0.7rem 0;
+    font-size: 1rem;
+}
+
+.info--div span{
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 0.2rem 0;
+}
+
+.green {
+    background: var(--green);
+}
+
+.pink {
+    background: var(--pink);
+}
+
+.cian {
+    background: var(--blue);
+}
